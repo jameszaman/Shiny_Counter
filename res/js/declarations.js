@@ -1,0 +1,12 @@
+const search_bar = document.querySelector("input.search-bar");
+const search_form = document.querySelector("#search-form");
+const counter = document.querySelector("#counter");
+const counter_up = document.querySelector("#counter-up");
+const counter_down = document.querySelector("#counter-down");
+const reset = document.querySelector("input#reset");
+const pokemon_image = document.querySelector("#pokemon-image");
+const search_suggestions = document.querySelectorAll(".search-suggestion");
+let timeout_id;
+const default_item_focus = 10;
+let item_focused = default_item_focus;
+console.log(counter_up);
